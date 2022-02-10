@@ -1,0 +1,68 @@
+* { 
+    background-color: silver;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    border: 1px solid black;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.register {
+    position: absolute;
+    font-size: 10px;
+    font-weight: 300px;
+    top: 0px;
+    padding: 0 3px;
+    background-color: chartreuse;    
+}
+
+label {
+    display: block;
+    color: black;
+    font-size: 20px;
+    line-height: 1px;
+}
+
+input {
+    margin-bottom: 15px;
+    border-color: purple;
+    background-color: white;
+}
+
+p {
+    font-size: 10px;
+    line-height: 1.5;
+   }
+
+.social-networks {
+    display: inline;
+    line-height: 5px;
+    border: purple;
+}
+
+.genero {
+    display: inline;
+    line-height: 5px;
+}
+
+textarea {
+    background-color: white;
+    border-color: purple;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    cursor: pointer;
+    display: inline
+}
+
+button:hover {
+    background-color: purple;
+    color: white;
+    border: rebeccapurple;
+}
